@@ -202,7 +202,10 @@ body {
 	color: #FFFFFF;
 }
 
-.my-image {}
+.my-image {
+	width: 370px;
+	height: 370px;
+}
 
 .contacts {}
 .contact-type {
