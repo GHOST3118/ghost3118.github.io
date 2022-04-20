@@ -32,8 +32,13 @@ footer {
 
 .logo {
 
-    height: 25%;
+    height: 30%;
     margin: 10%;
+}
+
+.twitch {
+
+    height: 40%;
 }
 
 #twitch {
