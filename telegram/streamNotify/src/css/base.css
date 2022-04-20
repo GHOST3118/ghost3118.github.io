@@ -1,7 +1,5 @@
 * {
 	color: var(--tg-theme-text-color);
-	color: white;
-	background-color: #111;
 }
 
 button.telegram {
@@ -13,7 +11,4 @@ button.telegram {
 
 	background-color: var(--tg-theme-button-color);
 	color: var(--tg-theme-button-text-color);
-
-	background-color: lightskyblue;
-	color: white;
 }
