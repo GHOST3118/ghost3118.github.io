@@ -13,6 +13,7 @@ header {
 content {
 
     width: 100%;
+    height: calc(var(--tg-viewport-height) - 60px);
 }
 
 footer {
@@ -24,4 +25,12 @@ footer {
 .center {
 
     text-align: center;
+}
+
+#twitch {
+    color: #6441a5;
+}
+
+#trovo {
+    color: #3cdb7d;
 }

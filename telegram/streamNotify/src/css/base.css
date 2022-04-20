@@ -1,5 +1,7 @@
 * {
 	color: var(--tg-theme-text-color);
+
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button.telegram {
