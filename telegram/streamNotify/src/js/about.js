@@ -4,4 +4,4 @@ tag.innerText = window.Telegram.WebApp.initData || 'null'
 
 window.Telegram.WebApp.ready()
 
-tag.innerText = 'text'
+//tag.innerText = 'text'
