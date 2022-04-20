@@ -2,4 +2,4 @@ function close() {
     window.Telegram.WebApp.close()
 }
 
-//window.Telegram.WebApp.ready()
+window.Telegram.WebApp.ready()
