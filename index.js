@@ -1,4 +1,4 @@
-import express from "./node_modules/express/lib/express"
+import express from "npm:express@4.18.2"
 
 const app = express()
 
