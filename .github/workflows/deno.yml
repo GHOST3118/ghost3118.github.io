@@ -34,4 +34,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "ghost3118-github-io"
-          entrypoint: "../../index.js" # TODO: update entrypoint
+          entrypoint: "../index.js" # TODO: update entrypoint
