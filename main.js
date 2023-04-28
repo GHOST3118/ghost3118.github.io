@@ -1,4 +1,4 @@
-import express from "npm:express";
+import express from "https://esm.sh/express";
 
 const app = express()
 
