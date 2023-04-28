@@ -16,7 +16,7 @@ async function handleHttp(conn: Deno.Conn) {
     // Try opening the file
     let file;
     try {
-      file = await Deno.open("." + filepath, { read: true });
+      file = await Deno.open("./dist" + filepath, { read: true });
     } catch {
       // If the file cannot be opened, return a "404 Not Found" response
       const notFoundResponse = new Response("404 Not Found", { status: 404 });
