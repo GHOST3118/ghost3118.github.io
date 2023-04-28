@@ -1,4 +1,4 @@
-import express from "https://cdn.skypack.dev/express";
+import express from "npm:express";
 
 const app = express()
 
