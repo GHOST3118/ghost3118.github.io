@@ -35,3 +35,4 @@ jobs:
         with:
           project: "ghost3118-github-io"
           entrypoint: "./main.ts" # TODO: update entrypoint
+          import-map: "importmap.json"
