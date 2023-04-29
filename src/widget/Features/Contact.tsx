@@ -79,8 +79,8 @@ interface ContactIconsListProps {
 
 const MOCKDATA = [
   { title: 'Email', description: 'team@theunboard.com', icon: IconAt },
-  { title: 'Telegram', description: '@ghost11111100', icon: IconBrandTelegram },
-  { title: 'Telegram', description: '@FOX1551', icon: IconBrandTelegram },
+  // { title: 'Telegram', description: '@ghost11111100', icon: IconBrandTelegram },
+  // { title: 'Telegram', description: '@FOX1551', icon: IconBrandTelegram },
 ];
 
 export function ContactIconsList({ data = MOCKDATA, variant }: ContactIconsListProps) {
