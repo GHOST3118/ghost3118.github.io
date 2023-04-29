@@ -1,5 +1,5 @@
 import { createStyles, ThemeIcon, Text, Box, Stack } from '@mantine/core';
-import { IconBrandTelegram, IconAt } from '@tabler/icons-react';
+import { IconAt } from '@tabler/icons-react';
 
 type ContactIconVariant = 'white' | 'gradient';
 
