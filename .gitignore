@@ -5,13 +5,7 @@ node_modules/
 # Build outputs
 dist/
 build/
-coverage/
-htmlcov/
-
-# Environment
-.env
-.env.local
-.env.*
+target/
 
 # Python
 __pycache__/
@@ -22,6 +16,11 @@ __pycache__/
 env/
 venv/
 .venv/
+.ENV
+.ENV.local
+.env.*
+.venv/
+.venv.bak/
 pip-log.txt
 pip-delete-this-directory.txt
 .tox/
@@ -32,30 +31,44 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
-*.tmp
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
-# TypeScript/JavaScript
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+web_modules/
 *.tsbuildinfo
-*.js.map
-*.jsx.map
-*.ts.map
-*.tsx.map
+.next/
+.nuxt/
+.vuepress/dist
+static/.vuepress/dist
+client/.vuepress/dist
+coverage/
+lib-cov/
+*.lcov
 
-# Vite
+# Vite specific
 !.vite/
+.vite/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# TypeScript
+*.tsbuildinfo
+.next/
+.nuxt/
+.vuepress/dist
+.static
+.vercel
 
 # Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # OS generated files
 .DS_Store
@@ -65,4 +78,5 @@ Thumbs.db
 .Trashes
 ehthumbs.db
 Thumbs.db
+Thumbs.db:encryptable
 ```
