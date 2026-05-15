@@ -1,0 +1,4 @@
+baseURL = 'https://theunboard.com/'
+locale = 'en-us'
+title = 'The Unboard'
+thene = "PaperMod"
